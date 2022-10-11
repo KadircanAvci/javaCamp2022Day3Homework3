@@ -31,7 +31,7 @@ public class Main {
 
 		Logger[] loggers = { new DatabaseLogger(), new FileLogger(), new MailLogger() };
 
-		Course course7 = new Course(7, "C++", 5, "image6.url");
+		Course course7 = new Course(7, "C++", 5, "image7.url");
 
 		CourseManager courseManager = new CourseManager(new HibernateCourseDao(), new CourseValidator(courses),
 				loggers);
